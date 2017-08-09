@@ -1,12 +1,115 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang=" en">
 <head>
     <meta charset="utf-8" />
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    
+    <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css " />
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js" ></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="StyleSheet.css" rel="stylesheet" />
+
+
 </head>
 <body>
-    
+    <div class=" container-fluid">
+        <div class=" row">
+            <nav class="navbar navbar-inverse">
+                <div class="navbar-header nav-header">
+                    <button type="button" class="navbar-toggle btn-menu" data-toggle="collapse" data-target="#myNavbar">
+                        MENU
+                    </button>
+                    <a class="navbar-brand"  href="#">
+                        <img src="Images/logo.png" style=" height:177%; float:right" />
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-main">
+                        <li class=""><a href="#">ABOUT US</a></li>
+                        <li class="nav-a"><a href="#">CONSULTING</a></li>
+                        <li class="nav-a"><a href="#">TRAINING </a></li>
+                        <li class="nav-a"><a href="#">SKYLIGHT</a></li>
+                        <li class="" style="padding-left:2em;"> <a href="#">CONTACT</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-menu"></span> </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+            
+        <div class="row header">
+            <div class="text-center">
+                <br /><br />
+                <p class="header-text-intro">HI! WE'RE CODEPLUS</p><br />
+                <p class="header-text-details">WE LIVE AND <br/> BREATHE CODE.</p>
+            </div>
+            <div id="founder" class="text-center  founderdiv">
+                <img src="Images/founders.png" align="middle"/>
+            </div> 
+        </div>
+        <div class="yello-arrow-block">
+            <img class=" yello-arrow-image" src="Images/yellow-arrow.png">
+            <span class="yello-arrow-text">MEET THE TEAM</span>
+        </div>
+        
+        <div class="row">            
+            <div class="basic-info">
+                <div>
+                <span class="info">We're small team of developers who are passinate about crafting great software.We're some of the faces behind Ember,js, ruby on Rails,JQuery and more. We're here to help you build the products and tools of the future.
+                </span><br /></div>
+                <div class="tech-block">
+                    <span class="tech-block-text">YOU MAY RECOGNIZE US FROM AROUND TOWN</span><br /><br />
+                    <img src="Images/rails.png" class="tech-img" />
+                    <img src="Images/jquery.png" class="tech-img" />
+                    <img src="Images/ember.png" class="tech-img" />
+                    <img src="Images/handlebars.png" class="tech-img"/>
+                    <img src="Images/bundler.png" class="tech-img" />
+                </div>
+            </div>
+            <div class="text-center label-black"> <span class=" label label-default taglabel ">WHAT WE DO</span> </div><hr />
+             
+            <div class=" row about-work-block" >
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center block-thumbnail">
+                    <img src="Images/consulting-illustration.png" class="img-thumbnail" alt="" />
+                    <p class="img-title">EMBER.JS & PRODUCT CONSULTING </p>
+                    <span class="img-desc">We can handle th most challenging technical problems and we've also got architecture,product and marketing chops</span><br /><br />
+                    <a class="img-desc" href=" #">Learn about our process</a>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                    <img src="Images/engagements-illustration.png" class="img-thumbnail" style="padding-right: 10px;" alt=""/>
+                    <p class=" img-title">TRAINING & SPEAKING ENGAGEMENTS </p>
+                    <span class="img-desc">We offer public, private and group training classes for Ember.js, Ruby on Rail and JavaScript. We also speak at indrustry conferences. </span><br /><br />
+                    <a class="img-desc" href=" #">View our upcoming schedule</a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12  text-center">
+                    <img src="Images/open-source-illustration.png" class="img-thumbnail" style="padding-right: 27px;"/>
+                    <p class="img-title">OPEN SOURCE DEVELOPMENT </p>
+                    <span class="img-desc">We've created and made contributions to some of the most notable and succesful open-source projects in the world.</span><br /><br />
+                    <a class="img-desc" href=" #">See what we've done</a>
+                </div>
+            </div>
+            <hr>
+            <div class="proj-block">
+                <span class="col-lg-8 col-md-8 col-sm-8 col-xs-8 hav-proj">HAVE A PROJECT IN MIND?</span>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 blue-arrow-block">
+                    <img class="blue-arrow-img" style="width:48%; height:3em;" src="Images/blue-button-base.png">
+                    <span class=" blue-arrow-text" style="position:absolute; left:10%; top:20%; color:white; font-weight:900; "> GIVE US A SHOUT</span>
+                    <img class="blue-arrow-head" src="Images/blue-button-arrow.png"/>
+                </div>
+            </div>
+            
+            <br />
+            <div class=" footer">
+                <a class="footer-text" href="#">About Us</a>
+                <a class="footer-text" href=" #">Consulting</a>
+                <img src="Images/logo.png" />
+                <a class="footer-text"href=" #">Training</a>
+                <a class=" footer-text" href=" #">Skylight</a>
+                <a class="footer-text" href=" #">Contact</a>
+            </div>
+            <p class="footerinfo">copyright 2016 codeplus inc</p>
+        </div>
+    </div>
 </body>
 </html>
